@@ -13,12 +13,12 @@ List all documents container in the database.
 Delete a document providing its unique ID
 
 
-STILL TO BE DONE: Link the database created to the API build for M2, to retrieve data from the database according to a certain search criteria.
+The front end part of this project, which integrated the databse to the API, is in this repository: https://github.com/TaiAgno/MR-Mission4
 
 
 SELF-DISCLAIMER
 
-Unavailable.
+I finally took upon myself the task of cleaning the code and leaving only what is necessary - I feel so much lighter now!
 
 ## Getting Started
 
@@ -32,12 +32,12 @@ Unavailable.
 
 ### Installing
 
-* ?npm install mongoose commander inquirer esm?
+* npm install mongoose commander inquirer esm
 * npm link
 
 ### Executing program
 
-* Open your favorite CLI tool and run the program utilising 'cardb'
+* Open your CLI tool of choice and run the program utilising 'cardb'
 * To seed with sample data: cardb seed
 * To add an individual document to the DB: cardb add
 * To list all documents of the DB: cardb list
