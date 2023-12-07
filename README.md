@@ -16,7 +16,7 @@ The front end part of this project, which integrates the database to the API, is
 
 SELF-DISCLAIMER
 
-I finally took upon myself the task of cleaning the code and leaving only what is necessary - I feel so much lighter now!
+This was good fun, and proof of how valuable youtube tutorials can be!
 
 ## Getting Started
 
