@@ -1,6 +1,8 @@
 import mongoose from 'mongoose';
 import Car from './schemas/cars.js';
 import fs from 'fs/promises';
+import path from 'path';
+import url from 'url';
 
 // connect to database
 let db;
@@ -40,7 +42,9 @@ export const listCars = () => {
 //seed database with cars sample data from json file
 export const seedCars = async () => {
     try {
-        const carData = await fs.readFile('./data/cars.json');
+        const moduleDir = path.dirname(url.fileURLToPath(import.meta.url));
+        const carDataPath = path.resolve(moduleDir, './data/cars.json');
+        const carData = await fs.readFile(carDataPath);
         const seedCars = JSON.parse(carData).cars;
 
         await Car.insertMany(seedCars);
