@@ -2,7 +2,7 @@
 
 ## Description
 
-The task given was to build a CLI tool to seed and delete data to and from MongoDB.
+The task given was to build a version controlled CLI tool to seed and delete data to and from a local MongoDB instance.
 This CLI program contains commands to seed the database using sample data contained in its package.
 It is also possible to:
 
@@ -38,9 +38,9 @@ I finally took upon myself the task of cleaning the code and leaving only what i
 * Use "cardb" to run the program
 * Commands available: cardb seed | cardb add | cardb list | cardb remove <_id>
 * cardb seed - seeds the database with sample data
-* cardb add - allows to add an individual document to the database through questions prompted
-* cardb list - lists all documents container in the database
-* cardb remove <_id> - deleted a document from the database by its id
+* cardb add - allows to add an individual document to the database through prompted questions
+* cardb list - lists all documents contained in the database
+* cardb remove <_id> - deletes a document from the database by its id
 
 ### Testing
 
