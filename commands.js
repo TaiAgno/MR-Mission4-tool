@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+
+// all packages and dependencies imported
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 
@@ -10,6 +12,8 @@ import inquirer from 'inquirer';
 
 const prompt = inquirer.createPromptModule();
 
+
+// prompt questions to add car individually
 const questions = [
     {
         type: 'input',
@@ -43,10 +47,12 @@ const questions = [
     }
 ];
 
+// version controlled tool
 program
     .version('1.0.0')
     .description('Client Management System')
 
+// command to add cars
 program    
     .command('add')
     .alias('a')
@@ -55,18 +61,21 @@ program
         prompt(questions).then(answers => addCar(answers));
     })
 
+ // command to remove car by id
 program
     .command('remove <_id>')
     .alias('r')
     .description('Remove a car')
     .action(_id => removeCar(_id));
 
+// command to list all cars
 program
     .command('list')
     .alias('l')
     .description('List all cars')
     .action(() => listCars());
 
+// command to seed database with cars sample data
 program
     .command('seed')
     .alias('s') 

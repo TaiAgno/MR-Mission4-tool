@@ -1,16 +1,100 @@
 {
-    "cars": [
-      { "tag": "hatchback", "make": "Suzuki", "model": "Swift Glab", "year": 2014, "image": "./cars/hatchback/2014-suzuki-swift-24405685_17704343.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/suzuki/swift/24405685" },
-      { "tag": "hatchback", "make": "Nissan", "model": "Note E-Power", "year": 2017, "image": "./cars/hatchback/2017-nissan-note-23625320_17399084.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/nissan/note/23625320" },
-      { "tag": "hatchback", "make": "Toyota", "model": "Aqua", "year": 2012, "image": "./cars/hatchback/2012-toyota-aqua-23632957_17518470.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/aqua/23632957" },
-      { "tag": "sedan", "make": "Hyundai", "model": "Sonata Elite", "year": 2018, "image": "./cars/sedan/2018-hyundai-sonata-23832509_17327922.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/hyundai/sonata/23832509" },
-      { "tag": "sedan", "make": "Toyota", "model": "Camry Hybrid", "year": 2011, "image": "./cars/sedan/2011-toyota-camry-23590511_17099153.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/camry/23590511" },
-      { "tag": "sedan", "make": "Lexus", "model": "GS460", "year": 2008, "image": "./cars/sedan/2008-lexus-gs460-23918568_17566399.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/lexus/gs460/23918568" },
-      { "tag": "suv", "make": "Ssangyong", "model": "Korando", "year": 2015, "image": "./cars/suv/2015-ssangyong-korando-24430349_17773032.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/ssangyong/korando/24430349" },
-      { "tag": "suv", "make": "Holden", "model": "Captiva 5", "year": 2013, "image": "./cars/suv/2013-holden-captiva-5-24387859_17652867.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/holden/captiva-5/24387859" },
-      { "tag": "suv", "make": "Audi", "model": "Q7", "year": 2009, "image": "./cars/suv/2009-audi-q7-23927860_17613591.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/audi/q7/23927860" },
-      { "tag": "convertible", "make": "Mazda", "model": "MX5", "year": 2010, "image": "./cars/convertible/2010-mazda-mx5-23838874_17828380.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mazda/mx5/23838874" },
-      { "tag": "convertible", "make": "Mercedez-Benz", "model": "SLK230", "year": 2004, "image": "./cars/convertible/2004-mercedes-benz-slk230-24502161_17989119.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mercedes-benz/slk230/24502161" },
-      { "tag": "convertible", "make": "Mazda", "model": "Roadster", "year": 2008, "image": "./cars/convertible/2008-mazda-roadster-24512319_18023772.jpg", "url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mazda/roadster/24512319" }
-    ]
-  }
+	"cars": [
+		{
+			"tag": "hatchback",
+			"make": "Suzuki",
+			"model": "Swift Glab",
+			"year": 2014,
+			"image": "./cars/hatchback/2014-suzuki-swift-24405685_17704343.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/suzuki/swift/24405685"
+		},
+		{
+			"tag": "hatchback",
+			"make": "Nissan",
+			"model": "Note E-Power",
+			"year": 2017,
+			"image": "./cars/hatchback/2017-nissan-note-23625320_17399084.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/nissan/note/23625320"
+		},
+		{
+			"tag": "hatchback",
+			"make": "Toyota",
+			"model": "Aqua",
+			"year": 2012,
+			"image": "./cars/hatchback/2012-toyota-aqua-23632957_17518470.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/aqua/23632957"
+		},
+		{
+			"tag": "sedan",
+			"make": "Hyundai",
+			"model": "Sonata Elite",
+			"year": 2018,
+			"image": "./cars/sedan/2018-hyundai-sonata-23832509_17327922.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/hyundai/sonata/23832509"
+		},
+		{
+			"tag": "sedan",
+			"make": "Toyota",
+			"model": "Camry Hybrid",
+			"year": 2011,
+			"image": "./cars/sedan/2011-toyota-camry-23590511_17099153.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/toyota/camry/23590511"
+		},
+		{
+			"tag": "sedan",
+			"make": "Lexus",
+			"model": "GS460",
+			"year": 2008,
+			"image": "./cars/sedan/2008-lexus-gs460-23918568_17566399.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/lexus/gs460/23918568"
+		},
+		{
+			"tag": "suv",
+			"make": "Ssangyong",
+			"model": "Korando",
+			"year": 2015,
+			"image": "./cars/suv/2015-ssangyong-korando-24430349_17773032.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/ssangyong/korando/24430349"
+		},
+		{
+			"tag": "suv",
+			"make": "Holden",
+			"model": "Captiva 5",
+			"year": 2013,
+			"image": "./cars/suv/2013-holden-captiva-5-24387859_17652867.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/holden/captiva-5/24387859"
+		},
+		{
+			"tag": "suv",
+			"make": "Audi",
+			"model": "Q7",
+			"year": 2009,
+			"image": "./cars/suv/2009-audi-q7-23927860_17613591.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/audi/q7/23927860"
+		},
+		{
+			"tag": "convertible",
+			"make": "Mazda",
+			"model": "MX5",
+			"year": 2010,
+			"image": "./cars/convertible/2010-mazda-mx5-23838874_17828380.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mazda/mx5/23838874"
+		},
+		{
+			"tag": "convertible",
+			"make": "Mercedez-Benz",
+			"model": "SLK230",
+			"year": 2004,
+			"image": "./cars/convertible/2004-mercedes-benz-slk230-24502161_17989119.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mercedes-benz/slk230/24502161"
+		},
+		{
+			"tag": "convertible",
+			"make": "Mazda",
+			"model": "Roadster",
+			"year": 2008,
+			"image": "./cars/convertible/2008-mazda-roadster-24512319_18023772.jpg",
+			"url": "https://www.turners.co.nz/Cars/Used-Cars-for-Sale/mazda/roadster/24512319"
+		}
+	]
+}

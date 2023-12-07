@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import Car from './schemas/cars.js';
 import fs from 'fs/promises';
 
+// connect to database
 let db;
 mongoose.connect('mongodb://localhost:27017/cars-taim4')
 .then((connection) => {
@@ -17,7 +18,7 @@ export const addCar = (car) => {
     });
 }
 
-// remove car
+// remove car by id
 export const removeCar = (_id) => {
     Car.findOneAndDelete({ _id })
     .then(car => {
@@ -36,7 +37,7 @@ export const listCars = () => {
     })
 }
 
-//seed cards from json file
+//seed database with cars sample data from json file
 export const seedCars = async () => {
     try {
         const carData = await fs.readFile('./data/cars.json');

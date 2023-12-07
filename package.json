@@ -1,7 +1,7 @@
 {
   "name": "cardb",
   "version": "1.0.0",
-  "description": "Cars database CLI for TurnersCars API",
+  "description": "Cars MongoDB CLI tool for TurnersCars API",
   "main": "index.js",
   "type": "module",
   "preferGlobal": true,

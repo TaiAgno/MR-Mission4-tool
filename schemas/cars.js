@@ -10,6 +10,7 @@ const carSchema = mongoose.Schema({
     url: { type: String },
 });  
 
+// constructor
 const Car = mongoose.model('Car', carSchema);
 
 export default Car;
